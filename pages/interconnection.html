@@ -23,6 +23,19 @@
       padding: 20px 0;
     }
     .tag { color: #b9aaa0; }
+
+.pdf-container {
+  width: 100%;
+  height: 700px;
+  border: 1px solid #555;
+  overflow: hidden;
+}
+
+.pdf-container iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
   </style>
 </head>
 <body>
@@ -31,8 +44,10 @@
   <h1><i>Interconnection(2025)</i></h1>
 
   <h3>
-for six instruments and electronic track.
+for six instruments and electronic track
   </h3>
+
+  <h4>By Lindsey Zhou</h4>
 
   <p>An experimental classical piece exploring the interaction between acoustic and electronic media, written to as a homage to the life of Italian contemporary composer Luciano Berio. Composed Spring 2025.</p>
 
@@ -86,7 +101,39 @@ carrying with it both the reverberations of the past and implications for the fu
 dedicated to a composer who left behind perhaps the most interconnected body of music ever
 written.</p>
 
-  <h2>Full Score</h2>
-  <embed src="../assets/interconnection.pdf" width="800px" height="2100px" />
+<h2>Full Score</h2>
+
+<div class="pdf-container">
+  <iframe
+    src="../assets/interconnection.pdf"
+    title="Interconnection (2025) full score"
+    loading="lazy">
+  </iframe>
+</div>
+
+<h2>Technological process</h2>
+ <p>Technology used:
+  <li>
+  Logic Pro X to compile and layer vocal excerpts and recordings 
+  </li>
+  <li>
+  Musescore to create the instrumental playback and score
+  </li>
+   
+  </p>
+
+  <p>I used Logic Pro X to essentially create the entire soundtrack: I cut, cleaned and rearranged the vocal excerpts and recordings
+    using it and layered them along with a playback of the instrumental score from Musescore to create the final recording of what the piece would sound like. In a real performance
+  of the piece, only the electronic track would be played alongside the six acoustic instruments played live.  </p>
+
+  <p>These are some screenshots inside the Logic Pro X software showcasing the volume, reverb and panning adjustments I made to each electronic track to balance out the overall sound.</p>
+  <img src="../assets/interconnection_1.png" width="auto">
+  <img src="../assets/interconnection_2.png" width="auto">
+
+  <h2>Final Recording</h2>
+  <p>Here is the final recording of the piece, created and compiled on Logic Pro X. </p>
+  <audio src="/assets/interconnection.mp3" controls></audio>
+
+
 </body>
 </html>
