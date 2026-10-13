@@ -5,30 +5,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Lindsey Zhou - Creative Coding</title>
+  <link rel="stylesheet" href="./css/style.css">
   <style>
-    body {
-      background: #171717;
-      color: #e8e4dc;
-      font-family: monospace;
-      max-width: 850px;
-      margin: 60px auto;
-      padding: 0 24px;
-      line-height: 1.8;
-    }
 
-    h1 { font-size: 2.5rem; }
-    a { color: #c4d7a1; }
-    .project {
-      border-top: 1px solid #555;
-      padding: 20px 0;
-    }
-    .tag { color: #b9aaa0; }
+.blue_box{
+  background-color: blue;
+  height: 300px;
+  width: 600px;
+
+}
+    
+
   </style>
 </head>
 <body>
-  <p>INDEPENDENT PRACTICE / 2026—</p>
 
-  <h1>Portfolio</h1>
+  <div class="base">
+  <div class="navbar">
+  <span>LINDSEY ZHOU [周灵兮] / </span>
+  
+  <a href="./index.html">PORTFOLIO</a>
+
+  <p>
+  <a href="mailto:lindseyzhoulx@gmail.com">email</a>
+  <span>/</span>
+  <a href="https://github.com/linda-lemon">github</a>
+  <span>/</span>
+   <a href="">curriculum vitae</a>
+</p>
+
+  </div>
+<div class="contents">
+
+  <h1><i>Portfolio</i></h1>
 
   <p>
     I'm a second-year computer science student based in London exploring creative coding,
@@ -38,32 +47,23 @@
   <h2>Selected work</h2>
 
   <div class="project">
-    <h3>01 — Strudel compositions</h3>
-    <p class="tag">Algorithmic music / Strudel</p>
-    <p>Records of my experiments in livecoding and algorithmic composition in Strudel.</p>
-    <a href="https://github.com/linda-lemon/strudel-sketchbook">
-      Listen to my compositions ↗
-    </a>
+    <a href="https://github.com/linda-lemon/strudel-sketchbook"><h3>[01] Strudel compositions</h3></a>
+    <p>Records of my experiments in livecoding and algorithmic composition in strudel.cc</p>
   </div>
 
   <div class="project">
-    <h3>02 — <i>Interconnection (2025)</i></h3>
-    <p class="tag">Music / Electronic sound / Score</p>
+        <a href="./pages/interconnection.html"><h3>[02] <i>Interconnection</i> (2025)</h3></a>
     <p>An experimental classical piece exploring the interaction between acoustic and electronic media, written to commemorate the life of Italian contemporary composer Luciano Berio.</p>
-    <a href="./pages/interconnection.html">
-      See details
-    </a>
   </div>
 
   <div class="project">
-    <h3>03 — Manga Database</h3>
-    <p class="tag">Java / Spring Boot / SQLite / AWS</p>
+    <h3>[03] Manga Database</h3>
     <p>A full-stack application for exploring manga metadata.</p>
     <a href="">
       Explore the project ↗
     </a>
+    </div>
   </div>
-
-  <p>More experiments in progress.</p>
+  </div>
 </body>
 </html>
